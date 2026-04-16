@@ -1,0 +1,10 @@
+import { TextDocument, UI5JSParser } from "ui5plugin-parser";
+import { CustomJSClass } from "ui5plugin-parser/dist/classes/parsing/ui5class/js/CustomJSClass";
+import { IError, JSLinters } from "../../Linter";
+import { JSLinter } from "./abstraction/JSLinter";
+export declare class WrongOverrideLinter extends JSLinter<UI5JSParser, CustomJSClass> {
+    protected className: JSLinters;
+    _getErrors(document: TextDocument): IError[];
+    private _getIfMemberIsWronglyOverriden;
+    private _getMemberFromParent;
+}
