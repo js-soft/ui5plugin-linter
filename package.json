@@ -60,6 +60,6 @@
 		"chalk": "4.1.2",
 		"minimatch": "9.0.9",
 		"rc-config-loader": "4.1.4",
-		"@ui5/parser": "github:js-soft/ui5parser#main"
+		"ui5plugin-parser": "github:js-soft/ui5plugin-parser#master"
 	}
 }
